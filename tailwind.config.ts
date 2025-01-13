@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+import type { Config } from "tailwindcss"
 
 export default {
   content: [
@@ -8,11 +8,10 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      boxShadow: {
+        custom: "-63.78px 63.78px 79.73px 0 rgba(0, 0, 0, 0.4)",
       },
     },
   },
   plugins: [],
-} satisfies Config;
+} satisfies Config
