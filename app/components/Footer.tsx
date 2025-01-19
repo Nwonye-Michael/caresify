@@ -120,7 +120,7 @@ const Footer = () => {
         <div className="flex flex-wrap py-3  justify-center md:justify-between gap-y-4  items-center w-full">
           <div className="flex gap-[28px] items-center">
             <span className="text-[9px] md:text-xs text-[#777E90]">
-              Copyright © 2024 Caresify Inc. All rights reserved
+              Copyright © 2025 Caresify Inc. All rights reserved
             </span>
             {link2.map((link, i) => (
               <Link
